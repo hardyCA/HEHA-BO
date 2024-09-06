@@ -31,8 +31,7 @@ export default function Page() {
     mensaje += `🧾 *TOTAL:* ${calcularTotal()} BOB\n\n`;
     mensaje += "🙏 ¡Gracias por tu compra!\n\n";
     mensaje += "-------------------------------------\n\n";
-    mensaje +=
-      "*¡Recuerda que a partir de dos productos, las entregas a domicilio son completamente GRATIS!*";
+    mensaje += "*¡Las entregas a domicilio son completamente GRATIS!*";
 
     const mensajeCodificado = encodeURIComponent(mensaje);
     return `https://wa.me/59162368026?text=${mensajeCodificado}`;
@@ -46,8 +45,7 @@ export default function Page() {
           CARRITO DE COMPRAS
         </h1>
         <p className="text-amber-500 mb-4">
-          ¡A partir de dos productos, las entregas a domicilio son completamente
-          GRATIS!
+          ¡Las entregas a domicilio son completamente GRATIS!
         </p>
 
         <div className="overflow-x-auto">
